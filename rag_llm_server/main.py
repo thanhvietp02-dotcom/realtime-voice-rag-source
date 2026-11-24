@@ -144,7 +144,7 @@ async def proxy(request: Request):
             "TaskId": "ChatTask01",
             "AgentConfig": {
                 "TargetUserId": [target_user_id],
-                "WelcomeMessage": "我是懂小智，你的专属课程顾问，有什么问题尽管问我吧，我比懂王更强",
+                "WelcomeMessage": "你好，我是语音助手。你想了解什么？",
                 "UserId": "AiAgent",
                 "EnableConversationStateCallback": True, 
             },
